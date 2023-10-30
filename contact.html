@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>About-Running Junkie</title>
+</head>
+<body>
+    <header>
+        <h1>Running Junkie</h1>
+        <p> Running Tips and Tricks to Help You Improve!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Contact Form</h2>
+        <form>
+            <label>Name:
+                <input type="text">
+
+            </label>
+            <label>Email:
+                <input type="text">
+
+            </label>
+            <label for="contact-reason">Reason for Contact:
+            </label>
+            <input list="contactoptions" id="contact-reason" name="contact-reason"/>
+            <datalist id="contactoptions">
+                <option value="Just to Say Hi"></option>
+                <option value="Request a Topic"></option>
+                <option value="Your own tips and tricks"></option>
+              </datalist>
+            <label for="comments">Comments or Concerns:</label>
+
+              <textarea id="comments" name="comments" rows="5" cols="33">
+              </textarea>
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+</html>
