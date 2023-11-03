@@ -1,0 +1,108 @@
+html {
+    background-color: rgb(236, 175, 185);
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+    margin: 40px;
+    padding: 40px;
+    color: #824e67;
+    border-top: 10px solid plum;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(221, 131, 221);
+    margin: 0;
+}
+
+h2 { 
+    color: rgb(202, 129, 202);
+    font-size: 1.5em;
+    margin: 0 100 0 0;
+
+}
+
+h3{
+    color: rgb(139, 72, 139);
+}
+
+
+p {
+    line-height: 1.2em;
+    width: 750px;
+    margin: 20px;
+}
+
+#blog {
+    border-top: 2px dotted palevioletred;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background: pink;
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1){
+    flex: 2;
+}
+
+article:nth-of-type(2){
+    flex:2;
+    
+}
+
+
+article:nth-of-type(3){
+    flex:1;
+    
+}
+
+header {
+    background-color:pink;
+    color: rgb(221, 131, 221);
+    padding: 20px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    left:0;
+}
+
+nav {
+    background-color: pink;
+    padding: 10px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    left: 20px;
+    top: 0; /* Height of the sticky header */
+    left: 0;
+  
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+
+.blog-post {
+    border-bottom: 2px dotted palevioletred;
+}
+
+.summary {
+    font-size: 1.6em;
+    margin-left: 0;
+}
