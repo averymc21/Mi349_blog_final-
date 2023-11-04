@@ -21,6 +21,7 @@ h2 {
     color: rgb(202, 129, 202);
     font-size: 1.5em;
     margin: 0 100 0 0;
+    margin-left: 25px;
 
 }
 
@@ -97,6 +98,10 @@ nav ul {
     margin-right: 10px;
   }
 
+  form { 
+    font-weight: bold;
+  }
+
 
 .blog-post {
     border-bottom: 2px dotted palevioletred;
@@ -106,3 +111,23 @@ nav ul {
     font-size: 1.6em;
     margin-left: 0;
 }
+
+.float-left {
+    float: left;
+    margin-right: 20px; /* Add some margin to separate the image from the text */
+  }
+
+
+  .image-container {
+    text-align: center; /* Center-align the image and alternative caption */
+  }
+  
+  .image-container img {
+    display: block; /* Prevent text from wrapping around the image */
+    margin: 20px; /* Center-align the image horizontally */
+  }
+  
+  .altcaption {
+    font-style: italic; /* Italicize the alternative caption */
+    color: rgb(139, 72, 139) /* Set the text color */
+  }
